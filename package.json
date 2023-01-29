@@ -1,0 +1,20 @@
+{
+  "name": "snippet-generator",
+  "version": "0.0.1",
+  "description": "Generate snippet for email embeds",
+  "main": "index.js",
+  "author": "Donovan Hutchinson",
+  "scripts": {
+    "snippet": "node index ${1}"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.6.2"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  }
+}
