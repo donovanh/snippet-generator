@@ -39,13 +39,13 @@ function buildSnippetHTML(values) {
     ${
       image
         ? `<div class="image">
-    <a href="${url}">
-      <img
-      src="${image}"
-      style="object-fit: cover; width: 120px; height: 120px; border-radius: 5px; margin: 0 0 0 20px;"
-    />
-    </a>
-  </div>`
+      <a href="${url}">
+        <img
+        src="${image}"
+        style="object-fit: cover; width: 120px; height: 120px; border-radius: 5px; margin: 0 0 0 20px;"
+      />
+      </a>
+    </div>`
         : ''
     }
   </div>
